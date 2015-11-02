@@ -2,7 +2,7 @@
 
 MeggyJr Reflection
 
-1. What is your project?
+- What is your project?
 
 My project is a game where a player has to avoid certain obstacles to reach the goal.
 
