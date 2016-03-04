@@ -1,0 +1,4107 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0xa327350" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0xa27c380" />
+  <item nodeId="node-0xa327350">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+You are lost in the forest looking for a specific type of herb. The herb you are looking for is called Holy Basil. It&apos;s purple and tall. You need the herb to heal your sick mother. You don&apos;t know your way back home and assume you have strayed very far from your home. You can&apos;t retrace your steps. You&apos;re pretty sure that you&apos;ve been walking in circles for the past hour and a half. The goal is to find your way home, find the Holy Basil, and overcome difficult tasks that come your way.
+
+Lost in the Forest
+An Interactive Fiction by Natalie Wong
+Release 1 / Serial number 160214 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There are more trees n
+
+Southeast. I think I saw a Lady who can help you in the North.
+
+The key hangs from a branch. You can&apos;t reach it. It unlocks a treasure chest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">NO</temporary>
+    <children>
+      <child nodeId="node-0xa32fc90" />
+      <child nodeId="node-0xa32ed40" />
+      <child nodeId="node-0xa32da70" />
+      <child nodeId="node-0xa32d990" />
+      <child nodeId="node-0xa32af90" />
+      <child nodeId="node-0xa32aeb0" />
+      <child nodeId="node-0xa328590" />
+      <child nodeId="node-0xa329fd0" />
+      <child nodeId="node-0xa32add0" />
+      <child nodeId="node-0xa327d00" />
+      <child nodeId="node-0xa3282e0" />
+      <child nodeId="node-0xa3273f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa3273f0">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">
+Trees
+There are even more trees and a path that leads Southwest. There is a treasure chest here. Do you perhaps have the key to open it?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="75">YES</temporary>
+    <children>
+      <child nodeId="node-0xa327460" />
+    </children>
+  </item>
+  <item nodeId="node-0xa327460">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">
+Water Hole
+You see a purplish plant that looks like a herb. Maybe you should look at it... unless it&apos;s poisonous.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="75">YES</temporary>
+    <children>
+      <child nodeId="node-0xa327fd0" />
+      <child nodeId="node-0xa3274d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa3274d0">
+    <command xml:space="preserve">take purple plant</command>
+    <result xml:space="preserve">Now you have the plant to heal your sick mother! You should find the Lady her pearl necklace. 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="75">YES</temporary>
+    <children>
+      <child nodeId="node-0xa327580" />
+    </children>
+  </item>
+  <item nodeId="node-0xa327580">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="75">YES</temporary>
+    <children>
+      <child nodeId="node-0xa3275e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa3275e0">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">
+Trees
+There are even more trees and a path that leads Southwest. There is a treasure chest here. Do you perhaps have the key to open it?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="75">YES</temporary>
+    <children>
+      <child nodeId="node-0xa327650" />
+    </children>
+  </item>
+  <item nodeId="node-0xa327650">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. I think I saw a Lady who can help you in the North.
+
+The key hangs from a branch. You can&apos;t reach it. It unlocks a treasure chest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="75">YES</temporary>
+    <children>
+      <child nodeId="node-0xa327740" />
+    </children>
+  </item>
+  <item nodeId="node-0xa327740">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clearing
+In the clearing stands a Lady who looks at you. She doesn&apos;t acknowledge you in any way, just stares. You are a bit freaked out but you don&apos;t say anything. Maybe you should ask her about the key. You should ask her about the purple plant as well. It doesn&apos;t hurt to make new friends once in a while!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="75">YES</temporary>
+    <children>
+      <child nodeId="node-0xa327790" />
+    </children>
+  </item>
+  <item nodeId="node-0xa327790">
+    <command xml:space="preserve">ask lady about key</command>
+    <result xml:space="preserve">She stares at you and says nonchalantly, &quot;Push the stone to get the key... Also I recently lost a pearl necklace somewhere in the forest. If you can find my pearl necklace, I will help you show you the way home. I have also seen that purple plant you&apos;ve been looking for... Holy Basil it&apos;s called? I don&apos;t remember but I think was either south or southeast from here. I&apos;m quite an old Lady, I don&apos;t remember much. But if you could find my pearl necklace, I would be a happy old Lady!&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="75">YES</temporary>
+    <children>
+      <child nodeId="node-0xa3277e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa3277e0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. I think I saw a Lady who can help you in the North.
+
+The key hangs from a branch. You can&apos;t reach it. It unlocks a treasure chest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="75">YES</temporary>
+    <children>
+      <child nodeId="node-0xa327850" />
+    </children>
+  </item>
+  <item nodeId="node-0xa327850">
+    <command xml:space="preserve">push stone</command>
+    <result xml:space="preserve">You push the stone and now you can reach the key!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="75">YES</temporary>
+    <children>
+      <child nodeId="node-0xa3278c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa3278c0">
+    <command xml:space="preserve">get on stone</command>
+    <result xml:space="preserve">You get onto Stone.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="75">YES</temporary>
+    <children>
+      <child nodeId="node-0xa3279f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa3279f0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Now that you&apos;re on top of the stone, the key is at arms length! Stretching out your hand, you just barely snatch the key from the tree.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="75">YES</temporary>
+    <children>
+      <child nodeId="node-0xa3276e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa3276e0">
+    <command xml:space="preserve">get off stone</command>
+    <result xml:space="preserve">You get off Stone.
+
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. I think I saw a Lady who can help you in the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="75">YES</temporary>
+    <children>
+      <child nodeId="node-0xa327a60" />
+    </children>
+  </item>
+  <item nodeId="node-0xa327a60">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">
+Trees
+There are even more trees and a path that leads Southwest. There is a treasure chest here. Do you perhaps have the key to open it?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="75">YES</temporary>
+    <children>
+      <child nodeId="node-0xa327ad0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa327ad0">
+    <command xml:space="preserve">unlock chest with key</command>
+    <result xml:space="preserve">You unlock treasure chest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="75">YES</temporary>
+    <children>
+      <child nodeId="node-0xa327b40" />
+    </children>
+  </item>
+  <item nodeId="node-0xa327b40">
+    <command xml:space="preserve">open chets</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="75">YES</temporary>
+    <children>
+      <child nodeId="node-0xa327bb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa327bb0">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">Inside the treasure chest is a pearl necklace! This must be the same pearl necklace the Lady was talking about! The pearls look real and the necklace is very pretty. You should give the necklace to the Lady... or you can keep it, whatever you choose.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="75">YES</temporary>
+    <children>
+      <child nodeId="node-0xa327c20" />
+    </children>
+  </item>
+  <item nodeId="node-0xa327c20">
+    <command xml:space="preserve">take pearl necklace</command>
+    <result xml:space="preserve">You should give this necklace to the Lady.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="75">YES</temporary>
+    <children>
+      <child nodeId="node-0xa327c90" />
+    </children>
+  </item>
+  <item nodeId="node-0xa327c90">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. I think I saw a Lady who can help you in the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="75">YES</temporary>
+    <children>
+      <child nodeId="node-0xa327930" />
+    </children>
+  </item>
+  <item nodeId="node-0xa327930">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clearing
+In the clearing stands a Lady who looks at you. She doesn&apos;t acknowledge you in any way, just stares. You are a bit freaked out but you don&apos;t say anything. Maybe you should ask her about the key. You should ask her about the purple plant as well. It doesn&apos;t hurt to make new friends once in a while!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="75">YES</temporary>
+    <children>
+      <child nodeId="node-0xa327980" />
+    </children>
+  </item>
+  <item nodeId="node-0xa327980">
+    <command xml:space="preserve">give necklace to lady</command>
+    <result xml:space="preserve">Thank you so much for finding my beautiful pearl necklace!  If you travel Northwest, you shall find the path that leads to home.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="75">YES</temporary>
+    <children>
+      <child nodeId="node-0xa327e80" />
+    </children>
+  </item>
+  <item nodeId="node-0xa327e80">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Home
+&quot;Wait!&quot; say the Lady. Her arm is out trying to stop you. With the other arm, the Lady takes out a perfume bottle, sprays once, and a magical portal appears. 
+
+ &quot;Go on,&quot; says that Lady. &quot;When you walk through the portal, you will arrive safe at home.&quot; 
+ 
+You decide to trust the Lady, after all she told you how to get the key. You walk forward and the Lady gives an encouraging nod. She smiles slightly and you walk into the portal. 
+ 
+You feel a cool breeze around your body and suddenly you&apos;re back at home. 
+ 
+&quot;Are you home?&quot; calls your mother. Better go see what she needs!
+
+You see a mirror. You should take the mirror. Welcome Home!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="75">YES</temporary>
+    <children>
+      <child nodeId="node-0xa327ef0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa327ef0">
+    <command xml:space="preserve">take mirrow</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="75">YES</temporary>
+    <children>
+      <child nodeId="node-0xa327f60" />
+    </children>
+  </item>
+  <item nodeId="node-0xa327f60">
+    <command xml:space="preserve">take mirror</command>
+    <result xml:space="preserve">You have reached home! You are as perfect as when you left the cottage and now you even have the Holy Basil! You&apos;re glowing and have a bright smile on your face. Have a wonderful day!
+
+
+
+    *** After you took the mirror, you looked very much the same. You saved your mother using the Holy Basil. You never did see the Lady again, but you always thought of her. Like &quot;How did she even use a PERFUME bottle to open a portal?&quot; you never found the answer, but you knew you were always in her debt. Although she stared at you quite creepily. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="74">YES</temporary>
+  </item>
+  <item nodeId="node-0xa327fd0">
+    <command xml:space="preserve">take plant</command>
+    <result xml:space="preserve">Now you have the plant to heal your sick mother! You should find the Lady her pearl necklace. 
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="50">YES</temporary>
+    <children>
+      <child nodeId="node-0xa328040" />
+    </children>
+  </item>
+  <item nodeId="node-0xa328040">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">
+Trees
+There are even more trees and a path that leads Southwest. There is a treasure chest here. Do you perhaps have the key to open it?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="50">YES</temporary>
+    <children>
+      <child nodeId="node-0xa3280b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa3280b0">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. I think I saw a Lady who can help you in the North.
+
+The key hangs from a branch. You can&apos;t reach it. It unlocks a treasure chest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="50">YES</temporary>
+    <children>
+      <child nodeId="node-0xa328120" />
+    </children>
+  </item>
+  <item nodeId="node-0xa328120">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">You can&apos;t take the key because it&apos;s to high.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="50">YES</temporary>
+    <children>
+      <child nodeId="node-0xa328190" />
+    </children>
+  </item>
+  <item nodeId="node-0xa328190">
+    <command xml:space="preserve">push stone</command>
+    <result xml:space="preserve">You push the stone and now you can reach the key!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="50">YES</temporary>
+    <children>
+      <child nodeId="node-0xa328200" />
+    </children>
+  </item>
+  <item nodeId="node-0xa328200">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">You can&apos;t take the key because it&apos;s to high.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="50">YES</temporary>
+    <children>
+      <child nodeId="node-0xa328270" />
+    </children>
+  </item>
+  <item nodeId="node-0xa328270">
+    <command xml:space="preserve">get on stone</command>
+    <result xml:space="preserve">You get onto Stone.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="50">YES</temporary>
+  </item>
+  <item nodeId="node-0xa3282e0">
+    <command xml:space="preserve">stand on top of stone</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="87">YES</temporary>
+  </item>
+  <item nodeId="node-0xa327d00">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clearing
+In the clearing stands a Lady who looks at you. She doesn&apos;t acknowledge you in any way, just stares. You are a bit freaked out but you don&apos;t say anything. It doesn&apos;t hurt to make new friends once in a while! Maybe you should ask her about the key. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
+    <children>
+      <child nodeId="node-0xa27c380" />
+      <child nodeId="node-0xa327d70" />
+    </children>
+  </item>
+  <item nodeId="node-0xa327d70">
+    <command xml:space="preserve">x lady</command>
+    <result xml:space="preserve">You see nothing special about Lady.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+  </item>
+  <item nodeId="node-0xa27c380">
+    <command xml:space="preserve">ask lady about key</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2">YES</temporary>
+  </item>
+  <item nodeId="node-0xa32add0">
+    <command xml:space="preserve">stand on top of the stone</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32ae40" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32ae40">
+    <command xml:space="preserve">stand on the stone</command>
+    <result xml:space="preserve">That&apos;s not something you can stand on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="85">YES</temporary>
+  </item>
+  <item nodeId="node-0xa329fd0">
+    <command xml:space="preserve">push stone</command>
+    <result xml:space="preserve">You push the stone and now you can step on top to get the key!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="162">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32a040" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32a040">
+    <command xml:space="preserve">get on stone</command>
+    <result xml:space="preserve">You get onto stone.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="161">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32a0b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32a0b0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Now that you&apos;re on top of the stone, the key is at arms length! Stretching out your hand, you just barely snatch the key from the tree.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="219">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32a120" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32a120">
+    <command xml:space="preserve">get off stone</command>
+    <result xml:space="preserve">You get off Stone.
+
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. I think I saw a Lady who can help you in the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="219">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32a190" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32a190">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clearing
+In the clearing stands a Lady who looks at you. She doesn&apos;t acknowledge you in any way, just stares. You are a bit freaked out but you don&apos;t say anything. Maybe you should ask her about the key. You should ask her about the purple plant as well. It doesn&apos;t hurt to make new friends once in a while!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="219">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32a200" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32a200">
+    <command xml:space="preserve">ask lady about key</command>
+    <result xml:space="preserve">She stares at you and says nonchalantly, &quot;Push the stone to get the key... Also I recently lost a pearl necklace somewhere in the forest. If you can find my pearl necklace, I will help you show you the way home. I have also seen that purple plant you&apos;ve been looking for... Holy Basil it&apos;s called? I don&apos;t remember but I think was either south or southeast from here. I&apos;m quite an old Lady, I don&apos;t remember much. But if you could find my pearl necklace, I would be a happy old Lady!&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="219">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32a270" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32a270">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. I think I saw a Lady who can help you in the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="219">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32a2e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32a2e0">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">
+Trees
+There are even more trees and a path that leads Southwest. There is a treasure chest here. Do you perhaps have the key to open it?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="219">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32a350" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32a350">
+    <command xml:space="preserve">open chest with key</command>
+    <result xml:space="preserve">You unlock treasure chest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="219">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32a3c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32a3c0">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">Inside the treasure chest is a pearl necklace! This must be the same pearl necklace the Lady was talking about! The pearls look real and the necklace is very pretty. You should give the necklace to the Lady... or you can keep it, whatever you choose.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="219">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32a430" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32a430">
+    <command xml:space="preserve">take necklace</command>
+    <result xml:space="preserve">You should give this necklace to the Lady.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="219">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32a4a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32a4a0">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">
+Water Hole
+You see a purplish plant that looks like a herb. Maybe you should look at it... unless it&apos;s poisonous.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="219">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32a510" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32a510">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">
+Trees
+There are even more trees and a path that leads Southwest. There is a treasure chest here. Do you perhaps have the key to open it?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="219">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32a580" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32a580">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. I think I saw a Lady who can help you in the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="219">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32a5f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32a5f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way! We have to keep going on the quest and it looks like there&apos;s dangerous poison ivy over there! Let&apos;s go a different way, it seems like a safer path.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="219">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32a660" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32a660">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clearing
+In the clearing stands a Lady who looks at you. She doesn&apos;t acknowledge you in any way, just stares. You are a bit freaked out but you don&apos;t say anything. Maybe you should ask her about the key. You should ask her about the purple plant as well. It doesn&apos;t hurt to make new friends once in a while!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="219">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32a6d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32a6d0">
+    <command xml:space="preserve">give lady necklace</command>
+    <result xml:space="preserve">Thank you so much for finding my beautiful pearl necklace! Have you gotten the purple herb?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="219">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32a740" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32a740">
+    <command xml:space="preserve">ask lady about purple plant</command>
+    <result xml:space="preserve">The purple plant I believe is at the Water Hole if I remember last!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="219">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32a7b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32a7b0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. I think I saw a Lady who can help you in the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="219">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32a820" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32a820">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">
+Trees
+There are even more trees and a path that leads Southwest. There is a treasure chest here. Do you perhaps have the key to open it?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="219">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32a890" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32a890">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way! We have to keep going on the quest and it looks like there&apos;s dangerous poison ivy over there! Let&apos;s go a different way, it seems like a safer path.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="219">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32a900" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32a900">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">
+Water Hole
+You see a purplish plant that looks like a herb. Maybe you should look at it... unless it&apos;s poisonous.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="219">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32a970" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32a970">
+    <command xml:space="preserve">take plant</command>
+    <result xml:space="preserve">You should go back to the Lady and ask her about this plant. You should ask her even though you have it. Maybe she&apos;ll tell you scientific facts about it!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="219">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32a9e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32a9e0">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">
+Trees
+There are even more trees and a path that leads Southwest. There is a treasure chest here. Do you perhaps have the key to open it?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="219">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32aa50" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32aa50">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way! We have to keep going on the quest and it looks like there&apos;s dangerous poison ivy over there! Let&apos;s go a different way, it seems like a safer path.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="219">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32aac0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32aac0">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. I think I saw a Lady who can help you in the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="219">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32ab30" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32ab30">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clearing
+In the clearing stands a Lady who looks at you. She doesn&apos;t acknowledge you in any way, just stares. You are a bit freaked out but you don&apos;t say anything. Maybe you should ask her about the key. You should ask her about the purple plant as well. It doesn&apos;t hurt to make new friends once in a while!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="219">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32aba0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32aba0">
+    <command xml:space="preserve">ask lady about purple plant</command>
+    <result xml:space="preserve">If you travel Northwest, you shall find the path that will lead you home!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="219">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32ac10" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32ac10">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Home
+&quot;Wait!&quot; say the Lady. Her arm is out trying to stop you. With the other arm, the Lady takes out a perfume bottle, sprays once, and a magical portal appears. 
+
+ &quot;Go on,&quot; says that Lady. &quot;When you walk through the portal, you will arrive safe at home.&quot; 
+ 
+You decide to trust the Lady, after all she told you how to get the key. You walk forward and the Lady gives an encouraging nod. She smiles slightly and you walk into the portal. 
+ 
+You feel a cool breeze around your body and suddenly you&apos;re back at home. 
+ 
+&quot;Are you home?&quot; calls your mother. Better go see what she needs!
+
+You see a mirror. You should take the mirror. Welcome Home!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="219">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32ac80" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32ac80">
+    <command xml:space="preserve">take mirror</command>
+    <result xml:space="preserve">You have reached home! You are as perfect as when you left the cottage and now you even have the Holy Basil! You&apos;re glowing and have a bright smile on your face. Have a wonderful day!
+
+
+
+    *** You have finished the game! Congrats! ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="219">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32acf0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32acf0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Home
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="219">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32ad60" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32ad60">
+    <command xml:space="preserve">take mirror</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="218">YES</temporary>
+  </item>
+  <item nodeId="node-0xa328590">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Clearing
+In the clearing stands a Lady who looks at you. She doesn&apos;t acknowledge you in any way, just stares. You are a bit freaked out but you don&apos;t say anything. Maybe you should ask her about the key. You should ask her about the purple plant as well. It doesn&apos;t hurt to make new friends once in a while!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa328600" />
+    </children>
+  </item>
+  <item nodeId="node-0xa328600">
+    <command xml:space="preserve">ask lady </command>
+    <result xml:space="preserve">What do you want to ask Lady for?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa328670" />
+    </children>
+  </item>
+  <item nodeId="node-0xa328670">
+    <command xml:space="preserve">ask lady about key</command>
+    <result xml:space="preserve">She stares at you and says nonchalantly, &quot;Push the stone to get the key... Also I recently lost a pearl necklace somewhere in the forest. If you can find my pearl necklace, I will help you show you the way home. I have also seen that purple plant you&apos;ve been looking for... Holy Basil it&apos;s called? I don&apos;t remember but I think was either south or southeast from here. I&apos;m quite an old Lady, I don&apos;t remember much. But if you could find my pearl necklace, I would be a happy old Lady!&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa3286e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa3286e0">
+    <command xml:space="preserve">go southeast</command>
+    <result xml:space="preserve">You can&apos;t go that way! We have to keep going on the quest and it looks like there&apos;s dangerous poison ivy over there! Let&apos;s go a different way, it seems like a safer path.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa328750" />
+    </children>
+  </item>
+  <item nodeId="node-0xa328750">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. I think I saw a Lady who can help you in the North.
+
+The key hangs from a branch. You can&apos;t reach it. It unlocks a treasure chest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa3287c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa3287c0">
+    <command xml:space="preserve">push stone</command>
+    <result xml:space="preserve">You push the stone and now you can reach the key!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa328830" />
+    </children>
+  </item>
+  <item nodeId="node-0xa328830">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">You can&apos;t take the key because it&apos;s to high.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa3288a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa3288a0">
+    <command xml:space="preserve">push stone and take key</command>
+    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa328910" />
+    </children>
+  </item>
+  <item nodeId="node-0xa328910">
+    <command xml:space="preserve">get on stone and take key</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa328980" />
+    </children>
+  </item>
+  <item nodeId="node-0xa328980">
+    <command xml:space="preserve">get on stone</command>
+    <result xml:space="preserve">You get onto Stone.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa3289f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa3289f0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Now that you&apos;re on top of the stone, the key is at arms length! Stretching out your hand, you just barely snatch the key from the tree.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa328a60" />
+    </children>
+  </item>
+  <item nodeId="node-0xa328a60">
+    <command xml:space="preserve">get off stone</command>
+    <result xml:space="preserve">You get off Stone.
+
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. I think I saw a Lady who can help you in the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa328ad0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa328ad0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Clearing
+In the clearing stands a Lady who looks at you. She doesn&apos;t acknowledge you in any way, just stares. You are a bit freaked out but you don&apos;t say anything. Maybe you should ask her about the key. You should ask her about the purple plant as well. It doesn&apos;t hurt to make new friends once in a while!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa328b40" />
+    </children>
+  </item>
+  <item nodeId="node-0xa328b40">
+    <command xml:space="preserve">ask lady about purple plant</command>
+    <result xml:space="preserve">The purple plant I believe is at the Water Hole if I remember last!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa328bb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa328bb0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">You can&apos;t go that way! We have to keep going on the quest and it looks like there&apos;s dangerous poison ivy over there! Let&apos;s go a different way, it seems like a safer path.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa328c20" />
+    </children>
+  </item>
+  <item nodeId="node-0xa328c20">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. I think I saw a Lady who can help you in the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa328c90" />
+    </children>
+  </item>
+  <item nodeId="node-0xa328c90">
+    <command xml:space="preserve">go southeast</command>
+    <result xml:space="preserve">
+Trees
+There are even more trees and a path that leads Southwest. There is a treasure chest here. Do you perhaps have the key to open it?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa328350" />
+    </children>
+  </item>
+  <item nodeId="node-0xa328350">
+    <command xml:space="preserve">open treasure chest</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa3283c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa3283c0">
+    <command xml:space="preserve">open treasure chest with key</command>
+    <result xml:space="preserve">You unlock treasure chest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa328430" />
+    </children>
+  </item>
+  <item nodeId="node-0xa328430">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">Inside the treasure chest is a pearl necklace! This must be the same pearl necklace the Lady was talking about! The pearls look real and the necklace is very pretty. You should give the necklace to the Lady... or you can keep it, whatever you choose.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa3284a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa3284a0">
+    <command xml:space="preserve">give to lady</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa328510" />
+    </children>
+  </item>
+  <item nodeId="node-0xa328510">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">You can&apos;t go that way! We have to keep going on the quest and it looks like there&apos;s dangerous poison ivy over there! Let&apos;s go a different way, it seems like a safer path.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa328d00" />
+    </children>
+  </item>
+  <item nodeId="node-0xa328d00">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">You can&apos;t go that way! We have to keep going on the quest and it looks like there&apos;s dangerous poison ivy over there! Let&apos;s go a different way, it seems like a safer path.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa328d70" />
+    </children>
+  </item>
+  <item nodeId="node-0xa328d70">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa328de0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa328de0">
+    <command xml:space="preserve">go southeast</command>
+    <result xml:space="preserve">You can&apos;t go that way! We have to keep going on the quest and it looks like there&apos;s dangerous poison ivy over there! Let&apos;s go a different way, it seems like a safer path.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa328e50" />
+    </children>
+  </item>
+  <item nodeId="node-0xa328e50">
+    <command xml:space="preserve">northeast</command>
+    <result xml:space="preserve">You can&apos;t go that way! We have to keep going on the quest and it looks like there&apos;s dangerous poison ivy over there! Let&apos;s go a different way, it seems like a safer path.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa328ec0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa328ec0">
+    <command xml:space="preserve">northwest</command>
+    <result xml:space="preserve">
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. I think I saw a Lady who can help you in the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa328f30" />
+    </children>
+  </item>
+  <item nodeId="node-0xa328f30">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clearing
+In the clearing stands a Lady who looks at you. She doesn&apos;t acknowledge you in any way, just stares. You are a bit freaked out but you don&apos;t say anything. Maybe you should ask her about the key. You should ask her about the purple plant as well. It doesn&apos;t hurt to make new friends once in a while!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa328fa0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa328fa0">
+    <command xml:space="preserve">give lady the necklace</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa329010" />
+    </children>
+  </item>
+  <item nodeId="node-0xa329010">
+    <command xml:space="preserve">give lady pearl necklace</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa329080" />
+    </children>
+  </item>
+  <item nodeId="node-0xa329080">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa3290f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa3290f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. I think I saw a Lady who can help you in the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa329160" />
+    </children>
+  </item>
+  <item nodeId="node-0xa329160">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">
+Trees
+There are even more trees and a path that leads Southwest. There is a treasure chest here. Do you perhaps have the key to open it?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa3291d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa3291d0">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">That&apos;s already open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa329240" />
+    </children>
+  </item>
+  <item nodeId="node-0xa329240">
+    <command xml:space="preserve">take necklace</command>
+    <result xml:space="preserve">You should give this necklace to the Lady.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa3292b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa3292b0">
+    <command xml:space="preserve">examine chest</command>
+    <result xml:space="preserve">Treasure chest is empty.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa329320" />
+    </children>
+  </item>
+  <item nodeId="node-0xa329320">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. I think I saw a Lady who can help you in the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa329390" />
+    </children>
+  </item>
+  <item nodeId="node-0xa329390">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">You can&apos;t go that way! We have to keep going on the quest and it looks like there&apos;s dangerous poison ivy over there! Let&apos;s go a different way, it seems like a safer path.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa329400" />
+    </children>
+  </item>
+  <item nodeId="node-0xa329400">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clearing
+In the clearing stands a Lady who looks at you. She doesn&apos;t acknowledge you in any way, just stares. You are a bit freaked out but you don&apos;t say anything. Maybe you should ask her about the key. You should ask her about the purple plant as well. It doesn&apos;t hurt to make new friends once in a while!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa329470" />
+    </children>
+  </item>
+  <item nodeId="node-0xa329470">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way! We have to keep going on the quest and it looks like there&apos;s dangerous poison ivy over there! Let&apos;s go a different way, it seems like a safer path.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa3294e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa3294e0">
+    <command xml:space="preserve">give lady pearl necklace</command>
+    <result xml:space="preserve">Thank you so much for finding my beautiful pearl necklace! Have you gotten the purple herb?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa329550" />
+    </children>
+  </item>
+  <item nodeId="node-0xa329550">
+    <command xml:space="preserve">no</command>
+    <result xml:space="preserve">That was a rhetorical question.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa3295c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa3295c0">
+    <command xml:space="preserve">imma ki</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa329630" />
+    </children>
+  </item>
+  <item nodeId="node-0xa329630">
+    <command xml:space="preserve">ask lady about purple necklace</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa3296a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa3296a0">
+    <command xml:space="preserve">ask lady purple plant</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa329710" />
+    </children>
+  </item>
+  <item nodeId="node-0xa329710">
+    <command xml:space="preserve">ask lady about purple plant</command>
+    <result xml:space="preserve">The purple plant I believe is at the Water Hole if I remember last!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa329780" />
+    </children>
+  </item>
+  <item nodeId="node-0xa329780">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">You can&apos;t go that way! We have to keep going on the quest and it looks like there&apos;s dangerous poison ivy over there! Let&apos;s go a different way, it seems like a safer path.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa3297f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa3297f0">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. I think I saw a Lady who can help you in the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa329860" />
+    </children>
+  </item>
+  <item nodeId="node-0xa329860">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">
+Trees
+There are even more trees and a path that leads Southwest. There is a treasure chest here. Do you perhaps have the key to open it?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa3298d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa3298d0">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">
+Water Hole
+You see a purplish plant that looks like a herb. Maybe you should look at it... unless it&apos;s poisonous.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa329940" />
+    </children>
+  </item>
+  <item nodeId="node-0xa329940">
+    <command xml:space="preserve">take plant</command>
+    <result xml:space="preserve">You should go back to the Lady and ask her about this plant. Maybe she&apos;ll tell you scientific facts about it! Now you have the plant to heal your sick mother!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa3299b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa3299b0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">You can&apos;t go that way! We have to keep going on the quest and it looks like there&apos;s dangerous poison ivy over there! Let&apos;s go a different way, it seems like a safer path.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa329a20" />
+    </children>
+  </item>
+  <item nodeId="node-0xa329a20">
+    <command xml:space="preserve">go w</command>
+    <result xml:space="preserve">You can&apos;t go that way! We have to keep going on the quest and it looks like there&apos;s dangerous poison ivy over there! Let&apos;s go a different way, it seems like a safer path.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa329a90" />
+    </children>
+  </item>
+  <item nodeId="node-0xa329a90">
+    <command xml:space="preserve">so s</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa329b00" />
+    </children>
+  </item>
+  <item nodeId="node-0xa329b00">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way! We have to keep going on the quest and it looks like there&apos;s dangerous poison ivy over there! Let&apos;s go a different way, it seems like a safer path.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa329b70" />
+    </children>
+  </item>
+  <item nodeId="node-0xa329b70">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">You can&apos;t go that way! We have to keep going on the quest and it looks like there&apos;s dangerous poison ivy over there! Let&apos;s go a different way, it seems like a safer path.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa329be0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa329be0">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">You can&apos;t go that way! We have to keep going on the quest and it looks like there&apos;s dangerous poison ivy over there! Let&apos;s go a different way, it seems like a safer path.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa329c50" />
+    </children>
+  </item>
+  <item nodeId="node-0xa329c50">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way! We have to keep going on the quest and it looks like there&apos;s dangerous poison ivy over there! Let&apos;s go a different way, it seems like a safer path.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa329cc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa329cc0">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">
+Trees
+There are even more trees and a path that leads Southwest. There is a treasure chest here. Do you perhaps have the key to open it?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa329d30" />
+    </children>
+  </item>
+  <item nodeId="node-0xa329d30">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. I think I saw a Lady who can help you in the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa329da0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa329da0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clearing
+In the clearing stands a Lady who looks at you. She doesn&apos;t acknowledge you in any way, just stares. You are a bit freaked out but you don&apos;t say anything. Maybe you should ask her about the key. You should ask her about the purple plant as well. It doesn&apos;t hurt to make new friends once in a while!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa329e10" />
+    </children>
+  </item>
+  <item nodeId="node-0xa329e10">
+    <command xml:space="preserve">ask lady about plant</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa329e80" />
+    </children>
+  </item>
+  <item nodeId="node-0xa329e80">
+    <command xml:space="preserve">ask lady about purple plant</command>
+    <result xml:space="preserve">If you travel Northwest, you shall find the path that will lead you home!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa329ef0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa329ef0">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Home
+&quot;Wait!&quot; says the Lady. Her arm is out trying to stop you. With the other arm, the Lady takes out a perfume bottle, sprays once, and a magical portal appears. 
+
+ &quot;Go on,&quot; says that Lady. &quot;When you walk through the portal, you will arrive safe at home.&quot; 
+ 
+You decide to trust the Lady, after all she told you how to get the key. You walk forward and the Lady gives an encouraging nod. She smiles slightly and you walk into the portal. 
+ 
+You feel a cool breeze around your body and suddenly you&apos;re back at home. 
+ 
+&quot;Are you home?&quot; calls your mother. Better go see what she needs!
+
+You see a mirror. You should take the mirror. Welcome Home!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0xa329f60" />
+    </children>
+  </item>
+  <item nodeId="node-0xa329f60">
+    <command xml:space="preserve">take mirror</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="96">YES</temporary>
+  </item>
+  <item nodeId="node-0xa32aeb0">
+    <command xml:space="preserve">clearing</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="62">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32af20" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32af20">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clearing
+In the clearing stands a lady. A woman who sneers at you. You should ask her about the treasure chest. There is also a treasure chest.
+
+This must be a treasure chest!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+  </item>
+  <item nodeId="node-0xa32af90">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">You can&apos;t take the key because it&apos;s to high.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32c490" />
+      <child nodeId="node-0xa32b000" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32b000">
+    <command xml:space="preserve">take stone</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32b070" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32b070">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clearing
+In the clearing stands a Lady who looks at you. She doesn&apos;t acknowledge you in any way, just stares. You are a bit freaked out but you don&apos;t say anything. Maybe you should ask her about the key. You should ask her about the purple plant as well. It doesn&apos;t hurt to make new friends once in a while!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32b0e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32b0e0">
+    <command xml:space="preserve">give lady stone</command>
+    <result xml:space="preserve">Lady doesn&apos;t seem interested.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32b150" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32b150">
+    <command xml:space="preserve">ask lady about stone</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32b1c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32b1c0">
+    <command xml:space="preserve">kick lady</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32b230" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32b230">
+    <command xml:space="preserve">x me</command>
+    <result xml:space="preserve">I don&apos;t know what I look like in the middle of the forest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32b2a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32b2a0">
+    <command xml:space="preserve">ask lady about Holy Basil</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32b310" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32b310">
+    <command xml:space="preserve">ask lady about plant</command>
+    <result xml:space="preserve">The purple plant I believe is at the Water Hole if I remember last!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32b380" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32b380">
+    <command xml:space="preserve">ask lady about key</command>
+    <result xml:space="preserve">She stares at you and says nonchalantly, &quot;Push the stone to get the key... Also I recently lost a pearl necklace somewhere in the forest. If you can find my pearl necklace, I will help you show you the way home. I have also seen that purple plant you&apos;ve been looking for... Holy Basil it&apos;s called? I don&apos;t remember but I think was either south or southeast from here. I&apos;m quite an old Lady, I don&apos;t remember much. But if you could find my pearl necklace, I would be a happy old Lady!&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32b3f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32b3f0">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">You can&apos;t go that way yet! You haven&apos;t completed your tasks!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32b460" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32b460">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. I think I saw a Lady who can help you in the North.
+
+The key hangs from a branch. You can&apos;t reach it. It unlocks a treasure chest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32b4d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32b4d0">
+    <command xml:space="preserve">move stone</command>
+    <result xml:space="preserve">You push the stone and now you can reach the key!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32b540" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32b540">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">You can&apos;t take the key because it&apos;s to high.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32b5b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32b5b0">
+    <command xml:space="preserve">get on stone</command>
+    <result xml:space="preserve">You can only get into something free-standing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32b620" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32b620">
+    <command xml:space="preserve">drop stone</command>
+    <result xml:space="preserve">Dropped.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32b690" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32b690">
+    <command xml:space="preserve">push stone</command>
+    <result xml:space="preserve">You push the stone and now you can reach the key!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32b700" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32b700">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">You can&apos;t take the key because it&apos;s to high.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32b770" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32b770">
+    <command xml:space="preserve">get on stone</command>
+    <result xml:space="preserve">You get onto Stone.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32b7e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32b7e0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Now that you&apos;re on top of the stone, the key is at arms length! Stretching out your hand, you just barely snatch the key from the tree.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32b850" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32b850">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">(first getting off Stone)
+
+Trees
+There are even more trees and a path that leads Southwest. There is a treasure chest here. Do you perhaps have the key to open it?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32b8c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32b8c0">
+    <command xml:space="preserve">open treasure chest</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32b930" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32b930">
+    <command xml:space="preserve">unlock treasure chest</command>
+    <result xml:space="preserve">(with Key)
+You unlock treasure chest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32b9a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32b9a0">
+    <command xml:space="preserve">open treasure chest</command>
+    <result xml:space="preserve">Inside the treasure chest is a pearl necklace! This must be the same pearl necklace the Lady was talking about! The pearls look real and the necklace is very pretty. You should give the necklace to the Lady... or you can keep it, whatever you choose.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32ba10" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32ba10">
+    <command xml:space="preserve">take pearl necklace</command>
+    <result xml:space="preserve">You should give this necklace to the Lady.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32ba80" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32ba80">
+    <command xml:space="preserve">put on necklace</command>
+    <result xml:space="preserve">You can&apos;t wear that!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32baf0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32baf0">
+    <command xml:space="preserve">drop necklace</command>
+    <result xml:space="preserve">Dropped.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32bb60" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32bb60">
+    <command xml:space="preserve">take necklace</command>
+    <result xml:space="preserve">You should give this necklace to the Lady.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32bbd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32bbd0">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. I think I saw a Lady who can help you in the North.
+
+You can see Stone here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32bc40" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32bc40">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clearing
+In the clearing stands a Lady who looks at you. She doesn&apos;t acknowledge you in any way, just stares. You are a bit freaked out but you don&apos;t say anything. Maybe you should ask her about the key. You should ask her about the purple plant as well. It doesn&apos;t hurt to make new friends once in a while!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32bcb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32bcb0">
+    <command xml:space="preserve">give necklace to lady </command>
+    <result xml:space="preserve">Thank you so much for finding my beautiful pearl necklace! Have you gotten the purple herb?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32bd20" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32bd20">
+    <command xml:space="preserve">ask lady about purple plant</command>
+    <result xml:space="preserve">The purple plant I believe is at the Water Hole if I remember last!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32bd90" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32bd90">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">You can&apos;t go that way yet! You haven&apos;t completed your tasks!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32be00" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32be00">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. I think I saw a Lady who can help you in the North.
+
+You can see Stone here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32be70" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32be70">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">You can&apos;t go that way! We have to keep going on the quest and it looks like there&apos;s dangerous poison ivy over there! Let&apos;s go a different way, it seems like a safer path.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32bee0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32bee0">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">
+Trees
+There are even more trees and a path that leads Southwest. There is a treasure chest here. Do you perhaps have the key to open it?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32bf50" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32bf50">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way! We have to keep going on the quest and it looks like there&apos;s dangerous poison ivy over there! Let&apos;s go a different way, it seems like a safer path.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32bfc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32bfc0">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">
+Water Hole
+You see a purplish plant that looks like a herb. Maybe you should look at it... unless it&apos;s poisonous.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32c030" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32c030">
+    <command xml:space="preserve">take pruple plant</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32c0a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32c0a0">
+    <command xml:space="preserve">take purple plant</command>
+    <result xml:space="preserve">You should go back to the Lady and ask her about this plant. Maybe she&apos;ll tell you scientific facts about it! Now you have the plant to heal your sick mother!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32c110" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32c110">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">
+Trees
+There are even more trees and a path that leads Southwest. There is a treasure chest here. Do you perhaps have the key to open it?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32c180" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32c180">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. I think I saw a Lady who can help you in the North.
+
+You can see Stone here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32c1f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32c1f0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clearing
+In the clearing stands a Lady who looks at you. She doesn&apos;t acknowledge you in any way, just stares. You are a bit freaked out but you don&apos;t say anything. Maybe you should ask her about the key. You should ask her about the purple plant as well. It doesn&apos;t hurt to make new friends once in a while!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32c260" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32c260">
+    <command xml:space="preserve">ask lady for scientific facts</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32c2d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32c2d0">
+    <command xml:space="preserve">ask lady about purple plant</command>
+    <result xml:space="preserve">If you travel Northwest, you shall find the path that will lead you home!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32c340" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32c340">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Home
+&quot;Wait!&quot; says the Lady. Her arm is out trying to stop you. With the other arm, the Lady takes out a perfume bottle, sprays once, and a magical portal appears. 
+
+ &quot;Go on,&quot; says that Lady. &quot;When you walk through the portal, you will arrive safe at home.&quot; 
+ 
+You decide to trust the Lady, after all she told you how to get the key. You walk forward and the Lady gives an encouraging nod. She smiles slightly and you walk into the portal. 
+ 
+You feel a cool breeze around your body and suddenly you&apos;re back at home. 
+ 
+&quot;Are you home?&quot; calls your mother. Better go see what she needs!
+
+You see a mirror. You should take the mirror. Welcome Home!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32c3b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32c3b0">
+    <command xml:space="preserve">take mirror</command>
+    <result xml:space="preserve">You have reached home! You are as perfect as when you left the cottage and now you even have the Holy Basil! You&apos;re glowing and have a bright smile on your face. Have a wonderful day!
+
+
+
+    *** After you took the mirror, you looked very much the same. You saved your mother using the Holy Basil. You never did see the Lady again, but you always thought of her. Like &quot;How did she even use a PERFUME bottle to open a portal?&quot; you never found the answer, but you knew you were always in her debt. Although she stared at you quite creepily. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="159">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32c420" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32c420">
+    <command xml:space="preserve">drop mirror</command>
+    <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="158">YES</temporary>
+  </item>
+  <item nodeId="node-0xa32c490">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clearing
+In the clearing stands a Lady who looks at you. She doesn&apos;t acknowledge you in any way, just stares. You are a bit freaked out but you don&apos;t say anything. Maybe you should ask her about the key. You should ask her about the purple plant as well. It doesn&apos;t hurt to make new friends once in a while!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32c500" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32c500">
+    <command xml:space="preserve">ask lady about key</command>
+    <result xml:space="preserve">She stares at you and says nonchalantly, &quot;Push the stone to get the key... Also I recently lost a pearl necklace somewhere in the forest. If you can find my pearl necklace, I will help you show you the way home. I have also seen that purple plant you&apos;ve been looking for... Holy Basil it&apos;s called? I don&apos;t remember but I think was either south or southeast from here. I&apos;m quite an old Lady, I don&apos;t remember much. But if you could find my pearl necklace, I would be a happy old Lady!&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32c570" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32c570">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. I think I saw a Lady who can help you in the North.
+
+The key hangs from a branch. You can&apos;t reach it. It unlocks a treasure chest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32c5e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32c5e0">
+    <command xml:space="preserve">push stone</command>
+    <result xml:space="preserve">You push the stone and now you can reach the key!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32c650" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32c650">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">You can&apos;t take the key because it&apos;s to high.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32c6c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32c6c0">
+    <command xml:space="preserve">get on the stone</command>
+    <result xml:space="preserve">You get onto Stone.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32c730" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32c730">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Now that you&apos;re on top of the stone, the key is at arms length! Stretching out your hand, you just barely snatch the key from the tree.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32c7a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32c7a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first getting off Stone)
+
+Clearing
+In the clearing stands a Lady who looks at you. She doesn&apos;t acknowledge you in any way, just stares. You are a bit freaked out but you don&apos;t say anything. Maybe you should ask her about the key. You should ask her about the purple plant as well. It doesn&apos;t hurt to make new friends once in a while!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32c810" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32c810">
+    <command xml:space="preserve">give lady key</command>
+    <result xml:space="preserve">Lady doesn&apos;t seem interested.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32c880" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32c880">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. I think I saw a Lady who can help you in the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32c8f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32c8f0">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">
+Trees
+There are even more trees and a path that leads Southwest. There is a treasure chest here. Do you perhaps have the key to open it?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32c960" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32c960">
+    <command xml:space="preserve">unlock chest woth key</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32c9d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32c9d0">
+    <command xml:space="preserve">unlock chest with key</command>
+    <result xml:space="preserve">You unlock treasure chest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32ca40" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32ca40">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">Inside the treasure chest is a pearl necklace! This must be the same pearl necklace the Lady was talking about! The pearls look real and the necklace is very pretty. You should give the necklace to the Lady... or you can keep it, whatever you choose.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32cab0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32cab0">
+    <command xml:space="preserve">put on necklace </command>
+    <result xml:space="preserve">(first taking the pearl necklace)
+You should give this necklace to the Lady.
+
+You can&apos;t wear that!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32cb20" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32cb20">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. I think I saw a Lady who can help you in the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32cb90" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32cb90">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a pearl necklace
+  Key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32cc00" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32cc00">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clearing
+In the clearing stands a Lady who looks at you. She doesn&apos;t acknowledge you in any way, just stares. You are a bit freaked out but you don&apos;t say anything. Maybe you should ask her about the key. You should ask her about the purple plant as well. It doesn&apos;t hurt to make new friends once in a while!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32cc70" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32cc70">
+    <command xml:space="preserve">give lady pearl neckalce </command>
+    <result xml:space="preserve">I only understood you as far as wanting to give Lady the pearl necklace.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32cce0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32cce0">
+    <command xml:space="preserve">give lady pearl necklace</command>
+    <result xml:space="preserve">Thank you so much for finding my beautiful pearl necklace! Have you gotten the purple herb?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32cd50" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32cd50">
+    <command xml:space="preserve">ask lady about purple herb</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32cdc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32cdc0">
+    <command xml:space="preserve">ask lady about holy basil</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32ce30" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32ce30">
+    <command xml:space="preserve">ask lady about purple plant</command>
+    <result xml:space="preserve">The purple plant I believe is at the Water Hole if I remember last!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32cea0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32cea0">
+    <command xml:space="preserve">ask lady about water hole</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32cf10" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32cf10">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. I think I saw a Lady who can help you in the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32cf80" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32cf80">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">
+Trees
+There are even more trees and a path that leads Southwest. There is a treasure chest here. Do you perhaps have the key to open it?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32cff0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32cff0">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">
+Water Hole
+You see a purplish plant that looks like a herb. Maybe you should look at it... unless it&apos;s poisonous.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32d060" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32d060">
+    <command xml:space="preserve">take purple plant</command>
+    <result xml:space="preserve">You should go back to the Lady and ask her about this plant. Maybe she&apos;ll tell you scientific facts about it! Now you have the plant to heal your sick mother!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32d0d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32d0d0">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">
+Trees
+There are even more trees and a path that leads Southwest. There is a treasure chest here. Do you perhaps have the key to open it?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32d140" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32d140">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. I think I saw a Lady who can help you in the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32d1b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32d1b0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clearing
+In the clearing stands a Lady who looks at you. She doesn&apos;t acknowledge you in any way, just stares. You are a bit freaked out but you don&apos;t say anything. Maybe you should ask her about the key. You should ask her about the purple plant as well. It doesn&apos;t hurt to make new friends once in a while!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32d220" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32d220">
+    <command xml:space="preserve">give lady purple plant</command>
+    <result xml:space="preserve">Lady doesn&apos;t seem interested.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32d290" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32d290">
+    <command xml:space="preserve">ask lady about purple plant</command>
+    <result xml:space="preserve">If you travel Northwest, you shall find the path that will lead you home!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32d300" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32d300">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Purple plant
+  Key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32d370" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32d370">
+    <command xml:space="preserve">show lady purple plant</command>
+    <result xml:space="preserve">Lady is unimpressed.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32d3e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32d3e0">
+    <command xml:space="preserve">\</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32d450" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32d450">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Home
+&quot;Wait!&quot; says the Lady. Her arm is out trying to stop you. With the other arm, the Lady takes out a perfume bottle, sprays once, and a magical portal appears. 
+
+ &quot;Go on,&quot; says that Lady. &quot;When you walk through the portal, you will arrive safe at home.&quot; 
+ 
+You decide to trust the Lady, after all she told you how to get the key. You walk forward and the Lady gives an encouraging nod. She smiles slightly and you walk into the portal. 
+ 
+You feel a cool breeze around your body and suddenly you&apos;re back at home. 
+ 
+&quot;Are you home?&quot; calls your mother. Better go see what she needs!
+
+You see a mirror. You should take the mirror. Welcome Home!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32d4c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32d4c0">
+    <command xml:space="preserve">take mirror</command>
+    <result xml:space="preserve">You have reached home! You are as perfect as when you left the cottage and now you even have the Holy Basil! You&apos;re glowing and have a bright smile on your face. Have a wonderful day!
+
+
+
+    *** After you took the mirror, you looked very much the same. You saved your mother using the Holy Basil. You never did see the Lady again, but you always thought of her. Like &quot;How did she even use a PERFUME bottle to open a portal?&quot; you never found the answer, but you knew you were always in her debt. Although she stared at you quite creepily. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32d530" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32d530">
+    <command xml:space="preserve">ERSTART</command>
+    <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32d5a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32d5a0">
+    <command xml:space="preserve">RETAT</command>
+    <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32d610" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32d610">
+    <command xml:space="preserve">RESTART</command>
+    <result xml:space="preserve">
+
+
+You have gotten lost in the forest looking for a specific type of herb. The herb you are looking for is called Holy Basil. It&apos;s purple and tall. You need the herb to heal your sick mother. Right now, you&apos;re lost in the forest and you don&apos;t know how to go back home. You have strayed very far from your home and can&apos;t retrace your steps. You&apos;re pretty sure that you&apos;ve been walking in circles for the past hour and a half. The goal is to find a way home, find the Holy Basil, and overcome difficult tasks.
+
+Lost in the Forest
+An Interactive Fiction by Natalie Wong
+Release 1 / Serial number 150902 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. I think I saw a Lady who can help you in the North.
+
+The key hangs from a branch. You can&apos;t reach it. It unlocks a treasure chest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32d680" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32d680">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">You can&apos;t take the key because it&apos;s to high.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32d6f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32d6f0">
+    <command xml:space="preserve">take stone</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32d760" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32d760">
+    <command xml:space="preserve">drop stone </command>
+    <result xml:space="preserve">Dropped.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32d7d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32d7d0">
+    <command xml:space="preserve">take stone</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32d840" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32d840">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clearing
+In the clearing stands a Lady who looks at you. She doesn&apos;t acknowledge you in any way, just stares. You are a bit freaked out but you don&apos;t say anything. Maybe you should ask her about the key. You should ask her about the purple plant as well. It doesn&apos;t hurt to make new friends once in a while!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32d8b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32d8b0">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">You can&apos;t go that way yet! You haven&apos;t completed your tasks!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32d920" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32d920">
+    <command xml:space="preserve">take mirror</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+  </item>
+  <item nodeId="node-0xa32d990">
+    <command xml:space="preserve">take stone</command>
+    <result xml:space="preserve">You don&apos;t have enough back strength to carry the stone everywhere. Shame on you for trying to hurt your back.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="171">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32da00" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32da00">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="170">YES</temporary>
+  </item>
+  <item nodeId="node-0xa32da70">
+    <command xml:space="preserve">move stone</command>
+    <result xml:space="preserve">You push the stone and now you can step on top to get the key!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="169">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32e170" />
+      <child nodeId="node-0xa32dae0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32dae0">
+    <command xml:space="preserve">get on stone </command>
+    <result xml:space="preserve">You get onto Stone.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32db50" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32db50">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Now that you&apos;re on top of the stone, the key is at arms length! Stretching out your hand, you just barely snatch the key from the tree.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32dbc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32dbc0">
+    <command xml:space="preserve">get off stone</command>
+    <result xml:space="preserve">You get off Stone.
+
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. I think I saw a Lady who can help you in the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32dc30" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32dc30">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">
+Trees
+There are even more trees and a path that leads Southwest. There is a treasure chest here. Do you perhaps have the key to open it?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32dca0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32dca0">
+    <command xml:space="preserve">unlock chest with key</command>
+    <result xml:space="preserve">You unlock treasure chest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32dd10" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32dd10">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">Inside the treasure chest is a pearl necklace! This must be the same pearl necklace the Lady was talking about! The pearls look real and the necklace is very pretty. You should give the necklace to the Lady... or you can keep it, whatever you choose.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32dd80" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32dd80">
+    <command xml:space="preserve">take pearl necklace</command>
+    <result xml:space="preserve">You should give this necklace to the Lady.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32ddf0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32ddf0">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. I think I saw a Lady who can help you in the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32de60" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32de60">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clearing
+In the clearing stands a Lady who looks at you. She doesn&apos;t acknowledge you in any way, just stares. You are a bit freaked out but you don&apos;t say anything. Maybe you should ask her about the key. You should ask her about the purple plant as well. It doesn&apos;t hurt to make new friends once in a while!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32ded0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32ded0">
+    <command xml:space="preserve">give necklace to lady</command>
+    <result xml:space="preserve">Thank you so much for finding my beautiful pearl necklace! Have you gotten the purple herb?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32df40" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32df40">
+    <command xml:space="preserve">ask lady about purple plant</command>
+    <result xml:space="preserve">The purple plant I believe is at the Water Hole if I remember last!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32dfb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32dfb0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. I think I saw a Lady who can help you in the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32e020" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32e020">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">
+Trees
+There are even more trees and a path that leads Southwest. There is a treasure chest here. Do you perhaps have the key to open it?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32e090" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32e090">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">
+Water Hole
+You see a purplish plant that looks like a herb. Maybe you should look at it... unless it&apos;s poisonous.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32e100" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32e100">
+    <command xml:space="preserve">take purple plant</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+  </item>
+  <item nodeId="node-0xa32e170">
+    <command xml:space="preserve">get on stone</command>
+    <result xml:space="preserve">You get onto stone.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="169">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32e1e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32e1e0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Now that you&apos;re on top of the stone, the key is at arms length! Stretching out your hand, you just barely snatch the key from the tree.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="169">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32e250" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32e250">
+    <command xml:space="preserve">get off stone</command>
+    <result xml:space="preserve">You get off stone.
+
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There are more trees in the Southeast. I think I saw a Lady who can help you in the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="169">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32e410" />
+      <child nodeId="node-0xa32e2c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32e2c0">
+    <command xml:space="preserve">drop key</command>
+    <result xml:space="preserve">Dropped.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="169">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32e330" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32e330">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">You take the key off the ground.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="169">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32e3a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32e3a0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="168">YES</temporary>
+  </item>
+  <item nodeId="node-0xa32e410">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clearing
+In the clearing stands a Lady who looks at you. She doesn&apos;t acknowledge you in any way, just stares. You are a big freaked out but you don&apos;t say anything. Maybe you should ask her about the key. It doesn&apos;t hurt to make new friends once in a while!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="55">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32e480" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32e480">
+    <command xml:space="preserve">ask lady about key</command>
+    <result xml:space="preserve">Move the stone to get the key. I lost a pearl necklace somewhere in the forest. If you can find my pearl necklace, I will help you show you the way home.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="55">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32e4f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32e4f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="55">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32e560" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32e560">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">
+Trees
+There are even more trees and a path that leads Southwest. There is a treasure chest here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="55">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32e5d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32e5d0">
+    <command xml:space="preserve">open chest with key</command>
+    <result xml:space="preserve">You unlock treasure chest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="55">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32e640" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32e640">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">Inside the treasure chest is a pearl necklace! This must be the same pearl necklace the Lady was talking about! We should give it to her.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="55">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32e6b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32e6b0">
+    <command xml:space="preserve">take neck</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="55">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32e720" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32e720">
+    <command xml:space="preserve">take necklace</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="55">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32e790" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32e790">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="55">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32e800" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32e800">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clearing
+In the clearing stands a Lady who looks at you. She doesn&apos;t acknowledge you in any way, just stares. You are a big freaked out but you don&apos;t say anything. Maybe you should ask her about the key. It doesn&apos;t hurt to make new friends once in a while!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="55">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32e870" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32e870">
+    <command xml:space="preserve">give necklace to lady</command>
+    <result xml:space="preserve">Thank you so much for finding my beautiful pearl necklace! Have you gotten the purple herb?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="55">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32e8e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32e8e0">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">No need to explore that way now. It&apos;s not part of this adventure.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="55">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32e950" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32e950">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Home
+The Lady takes out a perfume bottle, sprays once, and a magical portal appears. 
+
+ &quot;Go on,&quot; says that Lady. &quot;When you walk through the portal, you will arrive safe at home.&quot; 
+ 
+You decide to trust the Lady, after all she told you how to get the key. You walk forward and the Lady gives an encouraging nod. She smiles slightly and you walk into the portal. 
+ 
+You feel a cool breeze around your body and suddenly you&apos;re back at home. 
+ 
+&quot;Are you home?&quot; calls your mother. Better go tend to her needs!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="55">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32e9c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32e9c0">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">
+Clearing
+In the clearing stands a Lady who looks at you. She doesn&apos;t acknowledge you in any way, just stares. You are a big freaked out but you don&apos;t say anything. Maybe you should ask her about the key. It doesn&apos;t hurt to make new friends once in a while!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="55">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32ea30" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32ea30">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">No need to explore that way now. It&apos;s not part of this adventure.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="55">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32eaa0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32eaa0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="55">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32eb10" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32eb10">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There is more trees in the Southeast. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="55">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32eb80" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32eb80">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">
+Trees
+There are even more trees and a path that leads Southwest. There is a treasure chest here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="55">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32ebf0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32ebf0">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">
+Water Hole
+You see a purplish plant that looks like a herb. Maybe you should look at it... unless it&apos;s poisonous.
+
+A ladder is leaning against a tree. Might this have some use for you? Besides, you don&apos;t see a ladder everyday in the middle of the forest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="55">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32ec60" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32ec60">
+    <command xml:space="preserve">take plant</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="55">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32ecd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32ecd0">
+    <command xml:space="preserve">take Holy Basil</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="54">YES</temporary>
+  </item>
+  <item nodeId="node-0xa32ed40">
+    <command xml:space="preserve">take key </command>
+    <result xml:space="preserve">You can&apos;t take the key because it&apos;s to high.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32edb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32edb0">
+    <command xml:space="preserve">move stone</command>
+    <result xml:space="preserve">You push the stone and now you can step on top to get the key!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32ee20" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32ee20">
+    <command xml:space="preserve">step on key</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32ee90" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32ee90">
+    <command xml:space="preserve"> step on stone</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32ef00" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32ef00">
+    <command xml:space="preserve">go on stone</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32ef70" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32ef70">
+    <command xml:space="preserve">move to stone</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32efe0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32efe0">
+    <command xml:space="preserve">step on top of stone</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32f050" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32f050">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">You can&apos;t take the key because it&apos;s to high.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32f0c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32f0c0">
+    <command xml:space="preserve">get on stone</command>
+    <result xml:space="preserve">You get onto stone.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32f130" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32f130">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Now that you&apos;re on top of the stone, the key is at arms length! Stretching out your hand, you just barely snatch the key from the tree.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32f1a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32f1a0">
+    <command xml:space="preserve">get off stone</command>
+    <result xml:space="preserve">You get off stone.
+
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There are more trees n
+
+Southeast. I think I saw a Lady who can help you in the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32f210" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32f210">
+    <command xml:space="preserve">go se</command>
+    <result xml:space="preserve">
+Trees
+There are even more trees and a path that leads Southwest. There is a treasure chest here. Do you perhaps have the key to open it?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32f280" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32f280">
+    <command xml:space="preserve">open treasure chest</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32f2f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32f2f0">
+    <command xml:space="preserve">unlock treasure chest</command>
+    <result xml:space="preserve">(with Key)
+You unlock treasure chest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32f360" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32f360">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">Inside the treasure chest is a pearl necklace! This must be the same pearl necklace the Lady was talking about! The pearls look real and the necklace is very pretty. You should give the necklace to the Lady... or you can keep it, whatever you choose.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32f3d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32f3d0">
+    <command xml:space="preserve">take pearl necklace</command>
+    <result xml:space="preserve">You should give this necklace to the Lady.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32f440" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32f440">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a pearl necklace
+  Key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32f4b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32f4b0">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">You can&apos;t go that way! We have to keep going on the quest and it looks like there&apos;s dangerous poison ivy over there! Let&apos;s go a different way, it seems like a safer path.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32f520" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32f520">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There are more trees n
+
+Southeast. I think I saw a Lady who can help you in the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32f590" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32f590">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clearing
+In the clearing stands a Lady who looks at you. She doesn&apos;t acknowledge you in any way, just stares. You are a bit freaked out but you don&apos;t say anything. It doesn&apos;t hurt to make new friends once in a while! You should ask her about the purple plant.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32f600" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32f600">
+    <command xml:space="preserve">ask lady about purple plant</command>
+    <result xml:space="preserve">The purple plant I believe is at the Water Hole if I remember last!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32f670" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32f670">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">You can&apos;t go that way! We have to keep going on the quest and it looks like there&apos;s dangerous poison ivy over there! Let&apos;s go a different way, it seems like a safer path.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32f6e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32f6e0">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">You can&apos;t go that way! We have to keep going on the quest and it looks like there&apos;s dangerous poison ivy over there! Let&apos;s go a different way, it seems like a safer path.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32f750" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32f750">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There are more trees n
+
+Southeast. I think I saw a Lady who can help you in the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32f7c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32f7c0">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">
+Trees
+There are even more trees and a path that leads Southwest. There is a treasure chest here. Do you perhaps have the key to open it?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32f830" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32f830">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">
+Water Hole
+You see a purplish plant that looks like an herb. Maybe you should look at it... unless it&apos;s poisonous.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32f8a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32f8a0">
+    <command xml:space="preserve">take the purple plant</command>
+    <result xml:space="preserve">You should go back to the Lady and show her your plant. Maybe she&apos;ll tell you scientific facts about it! Now you have the plant to heal your sick mother!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32f910" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32f910">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">
+Trees
+There are even more trees and a path that leads Southwest. There is a treasure chest here. Do you perhaps have the key to open it?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32f980" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32f980">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Forest
+The forest has many different trees. They are all about 20 meters high and the lowest branch is 3 feet above you. You see a key and a stone lying on the ground. You are lost in the forest and want to find a way home and the Holy Basil to heal your sick mother. There is a clearing in the North. There are more trees n
+
+Southeast. I think I saw a Lady who can help you in the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32f9f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32f9f0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clearing
+In the clearing stands a Lady who looks at you. She doesn&apos;t acknowledge you in any way, just stares. You are a bit freaked out but you don&apos;t say anything. It doesn&apos;t hurt to make new friends once in a while! You should ask her about the purple plant.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32fa60" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32fa60">
+    <command xml:space="preserve">give the lady the purple plant</command>
+    <result xml:space="preserve">Lady doesn&apos;t seem interested.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32fad0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32fad0">
+    <command xml:space="preserve">give lady peal necklace</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32fb40" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32fb40">
+    <command xml:space="preserve">give lady pearl necklace</command>
+    <result xml:space="preserve">Thank you so much for finding my beautiful pearl necklace!  If you travel Northwest, you shall find the path that leads to home.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32fbb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32fbb0">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Home
+&quot;Wait!&quot; says the Lady. Her arm is out trying to stop you. With the other arm, the Lady takes out a perfume bottle, sprays once, and a magical portal appears. 
+
+ &quot;Go on,&quot; says that Lady. &quot;When you walk through the portal, you will arrive safe at home.&quot; 
+ 
+You decide to trust the Lady, after all she told you how to get the key. You walk forward and the Lady gives an encouraging nod. She smiles slightly and you walk into the portal. 
+ 
+You feel a cool breeze around your body and suddenly you&apos;re back at home. 
+ 
+&quot;Are you home?&quot; calls your mother. Better go heal her with the Holy Basil you collected in the forest!
+
+You see a mirror. You should take the mirror. Welcome Home!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xa32fc20" />
+    </children>
+  </item>
+  <item nodeId="node-0xa32fc20">
+    <command xml:space="preserve">take mirror</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+  </item>
+  <item nodeId="node-0xa32fc90">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Clearing
+In the clearing stands a Lady who looks at you. She doesn&apos;t acknowledge you in any way, just stares. You are a big freaked out but you don&apos;t say anything. Maybe you should ask her about the key. It doesn&apos;t hurt to make new friends once in a while!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="55">YES</temporary>
+  </item>
+</Skein>
